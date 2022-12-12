@@ -1,9 +1,11 @@
 body{
     background-color: aquamarine;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
 }
 a{
     font-size: 26px;
+    color: inherit;
 }
 a.logo{
     font-size: 46px;
@@ -16,10 +18,15 @@ h1{
     text-align: center;
     text-transform: capitalize;
 }
+.article{
+    font-size: 60px;
+    color: chocolate;
+    border: 5px solid red;
+}
 .subtitle{
-    font-style: 46px;
-     text-align: right;
-     text-decoration: dotted red overline 0.5em;
+    font-style: 1.2em;
+    text-align: right;
+    text-decoration: dotted red overline 0.5em;
 }
 p{
     font-size: 24px;
