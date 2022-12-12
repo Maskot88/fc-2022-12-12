@@ -8,10 +8,18 @@ a{
 a.logo{
     font-size: 46px;
     font-family: 'Rubik Gemstones', cursive;
+    text-transform: uppercase;
 }
 h1{
-    font-size: 100%;
+    font-size: 46px;
     font-family: 'Rubik Gemstones', cursive;
+    text-align: center;
+    text-transform: capitalize;
+}
+.subtitle{
+    font-style: 46px;
+     text-align: right;
+     text-decoration: dotted red overline 0.5em;
 }
 p{
     font-size: 24px;
@@ -20,3 +28,7 @@ p{
     font-family: 'Lora', serif;
     line-height: 1.5em;
 } 
+.btn{
+    text-decoration: none;
+    border: red;
+}
