@@ -1,0 +1,22 @@
+body{
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    font-size: 26px;
+}
+a.logo{
+    font-size: 46px;
+    font-family: 'Rubik Gemstones', cursive;
+}
+h1{
+    font-size: 100%;
+    font-family: 'Rubik Gemstones', cursive;
+}
+p{
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 700;
+    font-family: 'Lora', serif;
+    line-height: 1.5em;
+} 
