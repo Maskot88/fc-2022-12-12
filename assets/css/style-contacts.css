@@ -1,0 +1,30 @@
+body{
+    width: 800px;
+    margin: 0 50px;
+}
+img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+h1{
+    font-size: 40px;
+}
+header{
+    text-align: center;
+    margin-top: 20px;
+    border-bottom: double;
+    padding-bottom: 10px;
+}
+.experience{
+    font-size: 30px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000;
+}
+.title-skills{
+    font-size: 30px;
+    border-top: double;
+    border-bottom: 1px solid #000;
+    padding: 10px 0;
+}
