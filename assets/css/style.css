@@ -1,48 +1,60 @@
-body{
-    background-color: aquamarine;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
-}
-a{
-    font-size: 26px;
-    color: inherit;
-}
-.font-accent{
-    font-size: 46px;
-    font-family: 'Rubik Gemstones', cursive;
-    background-color: yellow;
-}
-a.logo{
-    text-transform: uppercase;
-    text-decoration: none;
-}
-h1{
+table{
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
     text-align: center;
-    text-transform: capitalize;
 }
-.article{
-    font-size: 60px;
-    color: chocolate;
-    border: 5px solid red;
+th, td{
+    padding: 1em;
 }
-.subtitle{
-    font-style: 1.2em;
-    text-align: right;
-    text-decoration: dotted red overline 0.5em;
+thead{
+    color: white;
 }
-p{
-    font-size: 24px;
-    font-style: italic;
-    font-weight: 700;
-    font-family: 'Lora', serif;
-    line-height: 1.3em;
-    text-align: justify;
-    text-indent: 3em;
-} 
-.btn{
-    text-decoration: none;
-    /* border: red;
-    border-style: solid;
-    border-width: 5px; */
-    border: 5px solid red;
+thead>tr>th:first-child{
+    border-radius: 15px 0 0 0;
+    background-color: #7987ac;
+}
+thead>tr>th:nth-child(2){
+    background-color: #4f628d;
+}
+thead>tr>th:nth-child(3){
+    background-color: #2f4173;
+}
+thead>tr>th:nth-child(4){
+    background-color: #162954;
+}
+thead>tr>th:last-child{
+    border-radius: 0 15px 0 0;
+    background-color: #07153a;
+}
+thead>tr>th>p:first-child{
+    margin: 0;
+}
+tbody>tr:nth-child(odd)>td:nth-child(odd),
+tfoot>tr:nth-child(odd)>th:nth-child(odd)
+{
+    background-color: #dbdbdb; 
+}
+tbody>tr:nth-child(even)>td:nth-child(odd){
+    background-color: #ececec;
+}
+tbody>tr:nth-child(even)>td:nth-child(even){
+    background-color: #f3f3f3; 
+}
+tbody>tr:nth-child(odd)>td:nth-child(even){
+    background-color: #e7e7e7;
+}
+tfoot>tr>th:nth-child(2),
+tfoot>tr>th:nth-child(4){
+    background-color: #e7e7e7;
+}
+tfoot>tr>th:first-child{
+    border-radius: 0 0 0 15px;
+}
+tfoot>tr>th:last-child{
+    border-radius: 0 0 15px 0;
+}
+button{
+    padding: 5px 20px;
+    font-size: 20px;
 }
